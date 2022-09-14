@@ -1,0 +1,7 @@
+EnterTextAndClick()
+
+Func EnterTextAndClick()
+   WinActivate("Open")
+   ControlSetText("Open","","Edit1","C:\sample.txt")
+   ControlClick("Open","","Button1")
+EndFunc
